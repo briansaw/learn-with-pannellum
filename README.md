@@ -12,6 +12,8 @@ Use the docker
 ```bash
 cd example
 
+mv docker-compose.yml.txt docker-compose.yml
+
 docker build -t learn-with-pannellum-webserver:v1 .
 
 docker images

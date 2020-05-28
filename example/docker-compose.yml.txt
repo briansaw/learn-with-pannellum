@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  static-file-server:
+    image: webserver-tour-360:v1
+    volumes:
+       - ./html:/usr/share/nginx/html
+    ports:
+      - 8080:80

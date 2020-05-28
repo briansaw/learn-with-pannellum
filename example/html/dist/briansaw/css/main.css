@@ -1,0 +1,9 @@
+.panorama {
+    width: 600px;
+    height: 400px;
+}
+
+.pnlm-panorama-info{
+    left: 0;
+    bottom: 0;
+}
